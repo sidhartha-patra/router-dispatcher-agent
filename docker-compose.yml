@@ -1,0 +1,8 @@
+services:
+  router-dispatcher-agent:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    environment:
+      ROUTER_DISPATCHER_AGENT_ENVIRONMENT: container
